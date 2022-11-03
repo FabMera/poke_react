@@ -5,6 +5,8 @@ import NavBar from "./Components/NavBar";
 import Personajes from "./Components/Personajes";
 import Pokemones from "./Components/Pokemones";
 
+
+
 function App() {
   return (
     <>

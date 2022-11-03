@@ -21,9 +21,6 @@ const CardPoke = ({ poke }) => {
               <li className="list-group-item"><b>defense:</b>{poke.defensa}</li>
               <li className="list-group-item"><b>especial-atackk:</b>{poke.especial}</li>
             </ul>
-            <p className="card-text">
-              <small className="text-muted">{poke.especial}</small>
-            </p>
             <Link to ="/Pokemones"><button className="btn btn-dark">Return</button></Link>
           </div>
         </div>

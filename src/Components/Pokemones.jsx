@@ -16,7 +16,7 @@ const Pokemones = () => {
     const res = await fetch(`https://pokeapi.co/api/v2/pokemon/`);
     const data = await res.json();
     const datos = data.results;
-    console.log(datos);
+    //console.log(datos);
     setPokemones(datos);
   };
 
@@ -36,7 +36,7 @@ const Pokemones = () => {
           className="form-select "
           aria-label="Default select example"
         >
-          <option>Pokemones</option>
+          <option value="">Pokemones</option>
           {pokemones.map((item) => (
             <option key={item.name} value={item.name}>
               {item.name}
